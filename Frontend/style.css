@@ -1,0 +1,30 @@
+* {
+    font-size: 1.5em;
+
+}
+
+body {
+    background-color: rgb(10, 160, 110);
+    color: white;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+ul {
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    list-style-type: none;
+}
+
+input,
+button {
+    border-radius: 6px;
+    padding: 10px;
+    color: black;
+}
